@@ -101,10 +101,13 @@ Change the `value=` fields to change your in-game statistics.
 | UPGRADES_PURCHASED | the number of upgrades the background should be displayed with. Changing this value will not decrement your star count. |
 |                    |                                                                                                                         |
 
-Save the file. If you have played Perfect Tower since you started editing the file, you might get a warning like "file changed on disk, are you sure you want to save?". Overwriting will lose all the changes you made in-game since you started editing. Not overwriting will preserve your in-game changes but lose the cheat changes.
+Save the file. 
 
-Restart Perfect Tower. You should now see the cheated progress on screen!
+Open Perfect Tower. You should now see the cheated progress on screen!
 
 
+## Special Shapes
+
+[A video that shows the requirements to unlock each special shape](media/special-shapes-descriptions.mp4)
 ## Floating on water bug
 
