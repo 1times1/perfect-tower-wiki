@@ -105,7 +105,6 @@ Save the file.
 
 Open Perfect Tower. You should now see the cheated progress on screen!
 
-
 ## Special Shapes
 
 [A video that shows the requirements to unlock each special shape](media/special-shapes-descriptions.mp4)
