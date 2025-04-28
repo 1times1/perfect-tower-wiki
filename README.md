@@ -6,7 +6,7 @@ To get a local copy of this wiki, download the GitHub repository. If you'd like 
 
 ## Upgrades
 
-Once an upgrade has been bought, the player cannot undo it without using [editing the data file](#cheats-data). Or you can delete and re-install the game to reset your progress.
+Once an upgrade has been bought, the player cannot undo it without using [editing the data file](#editing-the-data-file). Or you can delete and re-install the game to reset your progress.
 
 | number* | cost in stars | what it does                                                    |
 | ------- | ------------- | --------------------------------------------------------------- |
@@ -49,7 +49,7 @@ For graphics of what each upgrade looks like, refer to these videos:
 
 If you download an autoclicker app and run it to click once per second on the screen, and leave it running for a while, you will end up with more stars without having to play the game. I used the 'basic' mode of [Klick'r - Smart AutoClicker](https://github.com/Nain57/Smart-AutoClicker)
 
-### editing the data file {id=cheats-data}
+### editing the data file
 
 The below method only works for Android and requires root permissions. If you don't have root permissions and would still like to proceed, there's a [nice guide for how to "root your phone"](https://topjohnwu.github.io/Magisk/install.html). If you don't know what root permissions are, then you likely don't have them.
 
