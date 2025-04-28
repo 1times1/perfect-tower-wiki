@@ -1,0 +1,11 @@
+:root {
+    justify-content: center;
+    display: flex;
+}
+body {
+    margin: 3rem 20px;
+    max-width: 60rem;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+

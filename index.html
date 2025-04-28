@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perfect Tower by Hypnocat Studios - Wiki</title>
+        <link rel="stylesheet" href="/styles.css" />
+        <link rel="stylesheet" href="/github-md.css" />
+        <link rel="shortcut icon" href="data:," />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    <div class="markdown-body">
+        <h1>Perfect Tower by Hypnocat Studios - Wiki</h1>
+        
+        <h2>Upgrades</h2>
+        <p>Once an upgrade has been bought, the player cannot undo it without using <a href="#cheats-data">editing the data file</a>. Or you can delete and re-install the game to reset your progress.</p>
+        <table><thead><tr><th>number*</th><th>cost in stars</th><th>what it does</th></tr></thead><tbody><tr><td>0</td><td>15</td><td>adds water underneath the platform</td></tr><tr><td>1</td><td>20</td><td>adds a house on an island to the left of the platform</td></tr><tr><td>2</td><td>30</td><td>darkens the platform and adds grass on it</td></tr><tr><td>3</td><td>50</td><td>adds a brown bird that stands on the right half of the platform</td></tr><tr><td>4</td><td>70</td><td>adds clouds</td></tr><tr><td>5</td><td>90</td><td>adds a hot air balloon</td></tr><tr><td>6</td><td>110</td><td>adds a thin tower besides the house</td></tr><tr><td>7</td><td>130</td><td>adds a sailboat</td></tr><tr><td>8</td><td>150</td><td>adds a blimp</td></tr><tr><td>9</td><td>170</td><td>changes the platform to textured stone with messy grass</td></tr><tr><td>10</td><td>190</td><td>adds dark blue flying birds (pigeons?)</td></tr><tr><td>11</td><td>210</td><td>adds a moon in the sky</td></tr><tr><td>12</td><td>230</td><td>changes the house's tower to a wider red and white striped one</td></tr><tr><td>13</td><td>250</td><td>adds a clownfish in the water</td></tr><tr><td>14</td><td>280</td><td>adds low clouds/fog in the background</td></tr><tr><td>15</td><td>310</td><td>adds a green bird that stands on the left half of the platform</td></tr><tr><td>16</td><td>330</td><td>adds flying seagulls</td></tr><tr><td>17</td><td>350</td><td>adds a beige ringed planet</td></tr><tr><td>18</td><td>370</td><td>adds a shark in the water</td></tr><tr><td>19</td><td>390</td><td>changes the platform to a tree</td></tr><tr><td>20</td><td>410</td><td>changes the lighthouse to a grey tower-house complex</td></tr><tr><td>21</td><td>430</td><td>changes the sailboat to a steamboat</td></tr><tr><td>22</td><td>450</td><td>adds an astronaut attached to a satellite</td></tr><tr><td>23</td><td>470</td><td>changes the platform to the top of a Greek/Roman pillar</td></tr><tr><td>24</td><td>-</td><td>the upgrade button is not clickable</td></tr></tbody></table><p>* as stated on the up arrow of the upgrade button</p>
+        <p>For graphics of what each upgrade looks like, refer to these videos:</p>
+        <ul>
+        <li><a href="https://drive.google.com/file/d/17XH7ztmresmT3fyMdexK2V1RJ8pLXgB8/">All upgrades (dark mode)</a>, <a href="media/all-upgrades-dark-mode.mp4">[local]</a></li>
+        <li><a href="https://drive.google.com/file/d/1QI2LZ7Ob01nVmcZ-AaYELE8iTtuvdeI-/">All upgrades (light mode)</a>, <a href="media/all-upgrades-light-mode.mp4">[local]</a></li>
+        </ul>
+        <h2>Cheats</h2>
+        <h3>autoclicker</h3>
+        <p>If you download an autoclicker app and run it to click once per second on the screen, and leave it running for a while, you will end up with more stars without having to play the game. I used the 'basic' mode of <a href="https://github.com/Nain57/Smart-AutoClicker">Klick'r - Smart AutoClicker</a></p>
+        <h3 id="cheats-data">editing the data file</h3>
+        <p>The below method only works for Android and requires root permissions. If you don't have root permissions and would still like to proceed, there's a <a href="https://topjohnwu.github.io/Magisk/install.html">nice guide for how to &quot;root your phone&quot;</a>. If you don't know what root permissions are, then you likely don't have them.</p>
+        <p>Shut down the Perfect Tower app by going to Android's recents and then swiping it out.</p>
+        <p>Open this file in a text editor with root permissions: <code>/data/user/0/com.hypnocatstudio.perfecttower/shared_prefs/com.hypnocatstudio.perfecttower.v2.playerprefs.xml</code></p>
+        <p>(<code>/data/user/0/com.hypnocatstudio.perfecttower/</code> is where Perfect Tower for your main Android profile stores its data. If you want to change the Perfect Tower save of a &quot;second space&quot; or &quot;work profile&quot;, you might have to try <code>/data/user/10/com.hypnocatstudio.perfecttower/...</code>, or some other number after <code>/data/user/</code>. )</p>
+        <p>It will look like this</p>
+        <pre><code class="language-xml">&lt;?xml version='1.0' encoding='utf-8' standalone='yes' ?&gt;
+        &lt;map&gt;
+            &lt;string name=&quot;CHALLENGES_COMPLETED&quot;&gt;AQ%3D%3D&lt;/string&gt;
+            &lt;int name=&quot;Screenmanager%20Resolution%20Height&quot; value=&quot;1920&quot; /&gt;
+            &lt;int name=&quot;UPGRADES_PURCHASED&quot; value=&quot;23&quot; /&gt;
+            &lt;int name=&quot;NIGHT_MODE&quot; value=&quot;1&quot; /&gt;
+            &lt;string name=&quot;unity.player_sessionid&quot;&gt;532931913080811087&lt;/string&gt;
+            &lt;int name=&quot;PAID_CHARACTER&quot; value=&quot;0&quot; /&gt;
+            &lt;int name=&quot;Screenmanager%20Resolution%20Width&quot; value=&quot;1080&quot; /&gt;
+            &lt;string name=&quot;DAILY_CHALLENGES_IDS&quot;&gt;ASAAAAAOAAAAFAAAAA%3D%3D&lt;/string&gt;
+            &lt;int name=&quot;CHALLENGES_PLAYED&quot; value=&quot;0&quot; /&gt;
+            &lt;int name=&quot;VISIT_DAYS_IN_A_ROW&quot; value=&quot;1&quot; /&gt;
+            &lt;int name=&quot;GAMES_PLAYED&quot; value=&quot;2&quot; /&gt;
+            &lt;int name=&quot;DAILY_REWARDS&quot; value=&quot;1&quot; /&gt;
+            &lt;int name=&quot;com.lionstudios.analytics.timeinapp&quot; value=&quot;368&quot; /&gt;
+            &lt;int name=&quot;BOOSTER_ROTATE&quot; value=&quot;3&quot; /&gt;
+            &lt;int name=&quot;NEED_SHOW_TUTORIAL&quot; value=&quot;0&quot; /&gt;
+            &lt;string name=&quot;UNLOCKED_FIGURES_PAID&quot;&gt;AQ%3D%3D&lt;/string&gt;
+            &lt;string name=&quot;Lion_LocationInfo&quot;&gt;your-location&lt;/string&gt;
+            &lt;string name=&quot;NEXT_DAYLY_CHALLENGE_TIME&quot;&gt;-8584557886549533678&lt;/string&gt;
+            &lt;string name=&quot;NEXT_DAILY_REWARD_TIME&quot;&gt;638814816000000000&lt;/string&gt;
+            &lt;string name=&quot;unity.player_session_count&quot;&gt;3&lt;/string&gt;
+            &lt;int name=&quot;HAS_ADS&quot; value=&quot;0&quot; /&gt;
+            &lt;string name=&quot;DAILY_CHALLENGES_COMPLETED&quot;&gt;AgMAAAAA&lt;/string&gt;
+            &lt;int name=&quot;CURRENT_SPECIAL_FIGURE_ID&quot; value=&quot;0&quot; /&gt;
+            &lt;int name=&quot;BOOSTER_RAINBOW&quot; value=&quot;3&quot; /&gt;
+            &lt;int name=&quot;SOUND_ON&quot; value=&quot;1&quot; /&gt;
+            &lt;int name=&quot;__UNITY_PLAYERPREFS_VERSION__&quot; value=&quot;1&quot; /&gt;
+            &lt;int name=&quot;BEST_SCORE&quot; value=&quot;10&quot; /&gt;
+            &lt;int name=&quot;BOOSTER_DROP&quot; value=&quot;3&quot; /&gt;
+            &lt;int name=&quot;VIBRATION_ENABLED&quot; value=&quot;0&quot; /&gt;
+            &lt;string name=&quot;unity.cloud_userid&quot;&gt;a-hexadecimal-number&lt;/string&gt;
+            &lt;int name=&quot;Screenmanager%20Fullscreen%20mode&quot; value=&quot;1&quot; /&gt;
+            &lt;int name=&quot;COINS&quot; value=&quot;99295&quot; /&gt;
+            &lt;string name=&quot;UNLOCKED_FIGURES&quot;&gt;AQAAAAAEAAAAEAAAABIAAAAYAAAA&lt;/string&gt;
+        &lt;/map&gt;
+        </code></pre>
+        <p>Change the <code>value=</code> fields to change your in-game statistics.</p>
+        <table><thead><tr><th>name</th><th>what it is</th></tr></thead><tbody><tr><td>COINS</td><td>the number of stars you have</td></tr><tr><td>UPGRADES_PURCHASED</td><td>the number of upgrades the background should be displayed with. Changing this value will not decrement your star count.</td></tr></tbody></table><p>Save the file.</p>
+        <p>Open Perfect Tower. You should now see the cheated progress on screen!</p>
+        <h2>Special Shapes</h2>
+        <p><a href="https://drive.google.com/file/d/1qHb5dJvYU6xwo-YptZJvM7kgqTeLHjWo/">A video that shows the requirements to unlock each special shape</a>, <a href="media/special-shapes-descriptions.mp4">[local]</a></p>
+    </div>
+    </body>
+</html>
